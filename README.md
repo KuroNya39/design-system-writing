@@ -16,13 +16,15 @@ AI 先读仓库与真实运行画面，把界面、语义、交互、动效、�
 
 ## 安装
 
-```bash
-# Skill 名 = 目录名 design-system-writing
-mkdir -p ~/.claude/skills/design-system-writing
-cp SKILL.md ~/.claude/skills/design-system-writing/SKILL.md
-```
+不用自己敲命令。把下面这句话**整段复制**，发给你的 AI agent（Claude Code、Cursor 等都行），它会自己装好：
 
-装好后在对话里输入 `/design-system-writing` 即可调用。
+> 把 https://github.com/KuroNya39/design-system-writing 装成我的 Claude Code skill：
+> 把仓库里的 `SKILL.md` 放到 `~/.claude/skills/design-system-writing/SKILL.md`
+> （Windows 是 `%USERPROFILE%\.claude\skills\design-system-writing\`），目录名必须用 `design-system-writing`。
+> 装好后告诉我怎么确认它生效了。
+
+装完重开一次 Claude Code，输入 `/` 打开命令列表，能看到 `design-system-writing` 就成功了。
+以后想升级，跟 agent 说「把 design-system-writing 这个 skill 更新到最新」即可。
 
 ## 适用场景
 
