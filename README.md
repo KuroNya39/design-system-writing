@@ -1,6 +1,6 @@
 # design-system-writing
 
-为软件项目建立 / 维护设计系统 —— 一个 Claude Code Skill（半自动设计系统工程师）。
+为软件项目建立 / 维护设计系统 —— 一个可直接装进 AI agent 的 Skill（半自动设计系统工程师）。
 
 AI 先读仓库与真实运行画面，把界面、语义、交互、动效、资产盘点成带 `file:line` 的问题档案；再用内置的规则集定规则；最后落地为设计 token + 组件规格表 + 规范文档。全程只把**审美取舍**交给你拍板，其余自己查。
 
@@ -16,15 +16,21 @@ AI 先读仓库与真实运行画面，把界面、语义、交互、动效、�
 
 ## 安装
 
-不用自己敲命令。把下面这句话**整段复制**，发给你的 AI agent（Claude Code、Cursor 等都行），它会自己装好：
+把下面这段话**整段复制**，发给你的 AI agent（Claude Code、Cursor 等都行），它会自己装好：
 
-> 把 https://github.com/KuroNya39/design-system-writing 装成我的 Claude Code skill：
-> 把仓库里的 `SKILL.md` 放到 `~/.claude/skills/design-system-writing/SKILL.md`
-> （Windows 是 `%USERPROFILE%\.claude\skills\design-system-writing\`），目录名必须用 `design-system-writing`。
+> 把 https://github.com/KuroNya39/design-system-writing 装成我的 skill：
+> 仓库里的 `SKILL.md` 放进你的 skills 目录，目录名用 `design-system-writing`
+> （Claude Code 是 `~/.claude/skills/design-system-writing/SKILL.md`，
+> Windows 为 `%USERPROFILE%\.claude\skills\design-system-writing\`）。
 > 装好后告诉我怎么确认它生效了。
 
-装完重开一次 Claude Code，输入 `/` 打开命令列表，能看到 `design-system-writing` 就成功了。
-以后想升级，跟 agent 说「把 design-system-writing 这个 skill 更新到最新」即可。
+装完重开一次 agent。想升级，跟它说「把 design-system-writing 更新到最新」即可。
+
+## 调用
+
+- **直接说人话**：「用 design-system-writing 给这个项目建一套设计系统」——带上 skill 名最稳，不带也多半能自动认出来
+- **斜杠命令**（支持的 agent）：`/design-system-writing`
+- 中途想复查，可以只说「按 design-system-writing 审一遍这个界面」
 
 ## 适用场景
 
