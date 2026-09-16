@@ -16,56 +16,13 @@ AI 先读仓库与真实运行画面，把界面、语义、交互、动效、�
 
 ## 安装
 
-一个 Skill 就是「一个装着 `SKILL.md` 的目录」，**目录名必须叫 `design-system-writing`**（Claude Code 用目录名当 Skill 名）。
-没有任何依赖，不用 build、不用装包，拷贝一个文件即可。
-
-**① 拿到文件**
-
 ```bash
-git clone https://github.com/KuroNya39/design-system-writing.git
-```
-
-不用 git：在仓库页点 **Code → Download ZIP**，解压出 `SKILL.md`。
-
-**② 放进 skills 目录**
-
-装给**自己**（所有项目通用，推荐）：
-
-| 系统 | 目标目录 |
-|---|---|
-| macOS / Linux | `~/.claude/skills/design-system-writing/` |
-| Windows | `%USERPROFILE%\.claude\skills\design-system-writing\` |
-
-macOS / Linux：
-
-```bash
+# Skill 名 = 目录名 design-system-writing
 mkdir -p ~/.claude/skills/design-system-writing
-cp design-system-writing/SKILL.md ~/.claude/skills/design-system-writing/
+cp SKILL.md ~/.claude/skills/design-system-writing/SKILL.md
 ```
 
-Windows（PowerShell）：
-
-```powershell
-New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills\design-system-writing" | Out-Null
-Copy-Item design-system-writing\SKILL.md "$env:USERPROFILE\.claude\skills\design-system-writing\"
-```
-
-只给**当前项目**用（`<项目根>/.claude/skills/design-system-writing/`）——可以随项目提交，团队 clone 下来就都有。
-同名时项目级覆盖个人级。
-
-**③ 确认装上了**
-
-重开一次 Claude Code，输入 `/` 打开命令列表，能看到 `design-system-writing` 就对了；
-也可以直接输 `/design-system-writing`，能唤起即成功。
-
-**④ 升级 / 卸载**
-
-```bash
-git pull                                        # 升级：拉最新，再把 SKILL.md 重新拷一遍
-rm -rf ~/.claude/skills/design-system-writing   # 卸载（Windows 直接删目录）
-```
-
-Skill 是纯文本、无状态，升级就是覆盖 `SKILL.md`，不会动你项目里已经产出的规范文档与 token。
+装好后在对话里输入 `/design-system-writing` 即可调用。
 
 ## 适用场景
 
