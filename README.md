@@ -16,15 +16,11 @@ AI 先读仓库与真实运行画面，把界面、语义、交互、动效、�
 
 ## 安装
 
-把下面这段话**整段复制**，发给你的 AI agent（Claude Code、Cursor 等都行），它会自己装好：
+把下面这段话发给你的 AI agent（Claude Code、Cursor 等都行），它会自己装好：
 
-> 把 https://github.com/KuroNya39/design-system-writing 装成我的 skill：
-> 仓库里的 `SKILL.md` 放进你的 skills 目录，目录名用 `design-system-writing`
-> （Claude Code 是 `~/.claude/skills/design-system-writing/SKILL.md`，
-> Windows 为 `%USERPROFILE%\.claude\skills\design-system-writing\`）。
-> 装好后告诉我怎么确认它生效了。
+> 把 https://github.com/KuroNya39/design-system-writing 装成我的 skill：仓库里的 `SKILL.md` 放进你的 skills 目录，目录名用 `design-system-writing`。装好后告诉我怎么确认它生效了。
 
-装完重开一次 agent。想升级，跟它说「把 design-system-writing 更新到最新」即可。
+装完重开一次 agent；想升级，跟它说「把 design-system-writing 更新到最新」。
 
 ## 调用
 
