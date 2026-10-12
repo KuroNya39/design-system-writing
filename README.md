@@ -67,3 +67,7 @@
 ## 目录
 
 - `SKILL.md` —— 阶段 A–G 全文（侦察清单、决策轮、三层设计语法与动效语法、实现陷阱、token 与组件规格方法论、审计与维护）
+
+## 出处
+
+阶段 B 的提问机制来自 Matt Pocock 的 [grilling](https://github.com/mattpocock/skills)（MIT License，Copyright (c) 2026 Matt Pocock）。
