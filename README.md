@@ -68,6 +68,8 @@
 - `references/grammar-visual.md` —— G6 度量、G7 色彩、G8 组件几何、G9 图标、G10 造型
 - `references/grammar-data.md` —— G11 图表与表格、G12 无障碍
 - `references/b1-grilling.md` —— B1 讨论细则：候选风格、四种走法、提问格式与校准
+- `references/stage-e.md` —— 落地细则：设计 token、组件规格表、规范文档、老代码迁移
+- `references/audit.md` —— 审计清单：九项检查与退出条件
 - `references/pitfalls.md` —— 实现陷阱 P1–P16
 - `references/defaults.md` —— 行业默认档位表（间距 / 字号 / 行高 / 字重 / 圆角 / 图标 / 阴影 / 动效时长与缓动 / 点击目标 / 层级）
 
