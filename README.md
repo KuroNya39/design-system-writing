@@ -62,8 +62,12 @@
 
 ## 目录
 
-- `SKILL.md` —— 流程骨架：工作前提、入口分流、阶段 A–G 的步骤与检查
-- `references/design-grammar.md` —— 设计语法 G1–G14（含反馈与确认、文案与用词、数据可视化与无障碍）
+- `SKILL.md` —— 流程骨架与索引：工作前提、入口分流、阶段 A–G 的步骤与检查
+- `references/grammar-flow.md` —— G1 布局与 IA、G2 体验与任务流、G13 反馈与确认、G14 文案与用词
+- `references/grammar-interaction.md` —— G3 交互与输入（含表单）、G4 状态模型、G5 动效
+- `references/grammar-visual.md` —— G6 度量、G7 色彩、G8 组件几何、G9 图标、G10 造型
+- `references/grammar-data.md` —— G11 图表与表格、G12 无障碍
+- `references/b1-grilling.md` —— B1 讨论细则：候选风格、四种走法、提问格式与校准
 - `references/pitfalls.md` —— 实现陷阱 P1–P16
 - `references/defaults.md` —— 行业默认档位表（间距 / 字号 / 行高 / 字重 / 圆角 / 图标 / 阴影 / 动效时长与缓动 / 点击目标 / 层级）
 
